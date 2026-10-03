@@ -1,0 +1,14 @@
+Paper Computer Modern
+
+The comparison SVG files embed PaperComputerModern.ttf, a Unicode-mapped
+derivative of BaKoMa Computer Modern Roman 10 (cmr10.ttf), distributed with
+Matplotlib. Original Computer Modern outlines are preserved. Dagger, double
+dagger and symbol punctuation come from BaKoMa cmsy10.ttf; font-specific
+TrueType hints are removed from merged glyphs. The derivative is renamed
+Paper Computer Modern.
+
+Original fonts: Basil K. Malyshev
+http://www.ctan.org/tex-archive/fonts/cm/ps-type1/bakoma
+
+The original copyright, author statement and permissions are reproduced in
+FONT-LICENSE.txt. The license explicitly permits embedding these fonts in SVG.

@@ -1,0 +1,3 @@
+Jost by Owen Earl (indestructible type*). Licensed under the SIL Open Font License 1.1.
+https://github.com/indestructible-type/Jost
+Font served by Google Fonts; see OFL.txt.

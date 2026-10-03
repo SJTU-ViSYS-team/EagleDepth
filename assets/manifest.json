@@ -1,0 +1,22 @@
+{
+  "version": 7,
+  "project": "EagleDepth",
+  "source": "Original paper figures and selected experimental outputs",
+  "collections": {
+    "paper": "paper-content.json",
+    "runtime": "runtime-settings.json",
+    "visual": "visual-data.json"
+  },
+  "figures": {
+    "teaser": "teaser.svg",
+    "method": "method/full.svg"
+  },
+  "processing": {
+    "figures": "Complete original figure layouts retain vector paths and outlined text. The web teaser and method diagram reference native-resolution lossless WebP images and unchanged small PNG images/masks; original source pixels are preserved. No website assets are downsampled or lossy encoded. The self-contained teaser-readme.svg embeds the same eight native-resolution lossless WebP images with identical decoded source pixels; vectors, outlined text, layout, and detail crops are unchanged. No README image is resized or resampled.",
+    "depth": "Sixteen selected main-paper and supplementary scenes preserve the bound native RGB and depth visualization pixels in lossless WebP files, without downsampling. Depth Map uses normalized coordinates to explore the RGB and EagleDepth pair. RGB is displayed on the prediction aspect ratio, matching the saved paper layout; stored source pixels are unchanged.",
+    "timing": "Teaser runtime values verified against original eager-only measurements. Per-method conditions and timing boundaries are in runtime-settings.json.",
+    "logo": "Decorative generated eagle icon at its original dimensions and pixel values, encoded as losslessly compressed PNG (compression level 9); not experimental imagery.",
+    "compression": "Large PNG assets were re-encoded as lossless WebP at quality=100, method=6, exact=true only when size decreased by at least 5%. Every website output was decoded and compared against its original at RGBA level: dimensions, all pixel values, and transparency are identical. Original PNG files carry no color metadata. Small PNG images and masks, and the eagle icon PNG, remain unchanged. The self-contained README teaser embeds all eight full native-resolution lossless payloads without resizing, quantization, or lossy encoding. All source files are untouched.",
+    "comparison": "Three columns over two rows show RGB, MoGe-2, PPD on the first row, then an empty cell, InfiniDepth, and Ours (EagleDepth) on the second. Each method retains its saved paper crop, inset, arrow, multi-detail, or plain geometry with vector annotations and relative native-resolution lossless WebP references. The same full images are shared with Depth Map, without separate detail-preview files."
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "title": "EagleDepth: Efficient Fine-Grained Depth Estimation via Pixel Diffusion Decoder",
+  "shortName": "EagleDepth",
+  "abstract": "Recovering detailed geometry from high-resolution images is critical for precise perception of the surroundings and objects. However, existing methods which use latent-space modeling and VAE reconstruction can compromise geometric details. Furthermore, decoding from latent codes introduces substantial inference overhead. To address those issues, we present EagleDepth, an efficient framework for high-resolution monocular depth estimation that combines the geometric priors of latent diffusion with fine-grained pixel-space generation. Our key idea is to retain depth-aware latent representations as guidance while generating the final depth map directly in pixel space. We train the latent and pixel components sequentially: first, we fine-tune a pretrained latent diffusion model using paired RGB–depth supervision; then, we adapt a pretrained pixel diffusion decoder, PiD, to predict depth conditioned on the learned features. Training of the pixel component starts at 1024 resolution and continues across multiple resolutions up to 4K. The latent branch processes resized, lower-resolution RGB images, while the pixel branch generates depth at the target resolution, bypassing the original VAE decoder. This design preserves learned geometric knowledge without requiring the latent backbone to operate at the output resolution. On five commonly used depth estimation datasets and the high-resolution Synth4K dataset, our framework achieves state-of-the-art depth estimation performance, with faster inference and better preservation of fine structures and object boundaries.",
+  "authors": [
+    {
+      "name": "Bowen Chai",
+      "affiliations": [
+        1
+      ],
+      "equalContribution": true
+    },
+    {
+      "name": "Tianbao Zhang",
+      "affiliations": [
+        1
+      ],
+      "equalContribution": true
+    },
+    {
+      "name": "Shuyu Wu",
+      "affiliations": [
+        1
+      ]
+    },
+    {
+      "name": "Dexin Zuo",
+      "affiliations": [
+        1
+      ]
+    },
+    {
+      "name": "Zhaoxin Fan",
+      "affiliations": [
+        2
+      ]
+    },
+    {
+      "name": "Danping Zou",
+      "affiliations": [
+        1
+      ],
+      "corresponding": true
+    }
+  ],
+  "affiliations": [
+    {
+      "id": 1,
+      "name": "Shanghai Jiao Tong University"
+    },
+    {
+      "id": 2,
+      "name": "Beihang University"
+    }
+  ],
+  "citation": "@article{chai2026eagledepth,\n  title={EagleDepth: Efficient Fine-Grained Depth Estimation via Pixel Diffusion Decoder},\n  author={Bowen Chai, Tianbao Zhang, Shuyu Wu,\n          Dexin Zuo, Zhaoxin Fan, and Danping Zou},\n  booktitle={arXiv preprint},\n  year={2026}\n}",
+  "methodCaption": "Method overview. (a) An adapted latent predictor, trained with a pixel-space loss, estimates a coarse depth latent from a downsampled RGB image. (b) Conditioned on this latent, the pixel diffusion decoder generates a high-resolution depth map with fine-grained details. (c) A lightweight continuity-promoting module mitigates discontinuity artifacts at patch boundaries.",
+  "methodOverview": {
+    "image": "assets/method/full.svg",
+    "width": 940.176,
+    "height": 403.457,
+    "format": "SVG"
+  },
+  "teaserCaption": "EagleDepth excels at predicting fine-grained depth maps from high-resolution images. Compared with state-of-the-art methods, our model achieves better depth estimation results with faster inference, as shown in the radar chart (quality metrics averaged over the five Synth4K subsets; larger radii indicate better performance)"
+}

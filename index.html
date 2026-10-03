@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="EagleDepth: Efficient Fine-Grained Depth Estimation via Pixel Diffusion Decoder.">
+  <meta name="theme-color" content="#ffffff">
+  <title>EagleDepth: Efficient Fine-Grained Depth Estimation via Pixel Diffusion Decoder</title>
+  <link rel="canonical" href="https://sjtu-visys-team.github.io/EagleDepth/">
+  <link rel="icon" type="image/png" href="assets/eagle.png?v=55c12a6136a1">
+  <link rel="stylesheet" href="assets/css/style.css?v=05a30c375c56">
+  <link rel="stylesheet" href="assets/css/visual-results.css?v=20ce7ed6e08b">
+</head>
+<body>
+  <a class="skip-link" href="#overview">Skip to content</a>
+  <header class="hero">
+    <div class="container">
+      <div class="brand"><img src="assets/eagle.png?v=55c12a6136a1" alt="" width="125" height="125"><span class="wordmark">EagleDepth</span></div>
+      <h1>Efficient Fine-Grained Depth Estimation<br>via Pixel Diffusion Decoder</h1>
+      <div class="authors" id="publication-authors">
+        <div class="author-row"><span class="author-name">Bowen Chai<sup>1*</sup></span> <span class="author-name">Tianbao Zhang<sup>1*</sup></span> <span class="author-name">Shuyu Wu<sup>1</sup></span></div>
+        <div class="author-row"><span class="author-name">Dexin Zuo<sup>1</sup></span> <span class="author-name">Zhaoxin Fan<sup>2</sup></span> <span class="author-name">Danping Zou<sup>1†</sup></span></div>
+      </div>
+      <div class="affiliations" id="publication-affiliations">
+        <div class="affiliation-row"><span><sup>1</sup>Shanghai Jiao Tong University</span> <span><sup>2</sup>Beihang University</span></div>
+      </div>
+      <p class="author-notes"><span><sup>*</sup>Equal contribution</span><span><sup>†</sup>Corresponding author</span></p>
+      <!-- Icon artwork: Academicons and Font Awesome; licenses in assets/vendor/icons/. -->
+      <div class="resource-links">
+        <a class="resource-link" id="paper-link" role="link" aria-disabled="true" tabindex="-1" title="Paper link coming soon"><svg class="ui-icon" style="width:0.875em" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="currentColor" aria-hidden="true"><path transform="translate(0 448) scale(1 -1)" d="M62.2578 439.994v0.000976563c8.7373 -0.208008 17.0049 -10.248 17.0049 -10.248l139.339 -133.672l101.071 91.6465l0.19043 0.172852l0.203125 0.166016c4.90625 4.81934 11.3877 7.70312 18.252 8.12207l0.00585938 0.0185547 c1.05957 -0.00195312 2.11816 -0.0712891 3.16699 -0.211914c10.166 -2.4209 18.7891 -9.11816 23.6465 -18.3701c4.01758 -9.88574 0.291016 -17.6826 -7.50195 -27.8057l-0.102539 -0.139648l-0.115234 -0.132812l-87.1963 -102.987l25.2568 -24.2285 c17.0928 -15.6211 17.002 -42.5723 -0.197266 -58.0762l-23.0615 -21.4434l128.783 -155.019c6.05273 -6.27637 8.49609 -15.2041 6.48145 -23.6885c-2.51465 -9.04297 -9.44238 -16.1914 -18.4004 -18.9902c-2.37793 -0.728516 -4.84863 -1.10254 -7.33496 -1.1084 c-6.88184 0.109375 -13.4678 2.83105 -18.4189 7.61035l-146.593 139.609l-95.1221 -88.4375c-3.72852 -4.63086 -9.30664 -7.38672 -15.249 -7.53516c-9.27832 -0.0908203 -17.6777 5.47754 -21.209 14.0586c-3.46777 8.33105 0.375 19.9385 6.58398 26.5527 l79.9766 98.2344l-28.6631 27.3008c-19.292 19.2861 -18.4004 47.1162 2.33984 67.8516l24.6191 23.0391s-111.243 133.583 -122.178 149.671c-7.46582 10.6934 -9.91016 16.4219 -6.50586 24.5918c3.57715 8.33398 11.8613 13.6562 20.9277 13.4473zM338.319 388.78 v-0.0214844c-5.18945 -0.473633 -10.0342 -2.79199 -13.6592 -6.53516l-100.681 -91.3047l40.8809 -39.2197l86.8916 102.64c8.05957 10.4746 8.75195 14.9609 6.50488 20.4824c-3.83691 6.77344 -10.2119 11.7451 -17.7188 13.8105 c-0.735352 0.0976562 -1.47754 0.145508 -2.21875 0.148438zM175.076 246.873l-24.623 -23.041c-16.8564 -16.8564 -19.4756 -39.8701 -2.15918 -57.1865l220.151 -209.691c3.5752 -3.45898 8.32031 -5.44336 13.293 -5.56152 c1.75293 0.00292969 3.49512 0.266602 5.1709 0.78418c6.58887 2.0752 11.6631 7.36914 13.4629 14.0381c1.83984 6.0957 -0.860352 11.5049 -5.18066 16.9141z"/></svg>Paper</a>
+      </div>
+      <p class="paper-note" id="code-note">Code coming soon</p>
+    </div>
+  </header>
+  <main class="container">
+    <section class="section-card" id="overview" aria-labelledby="overview-title">
+      <h2 id="overview-title">Overview</h2>
+      <figure>
+      <a class="figure-link" href="assets/teaser.svg?v=48ca141362ea" target="_blank" rel="noopener" aria-label="Open the original-resolution overview figure"><object class="original-figure vector-figure" id="teaser" data="assets/teaser.svg?v=48ca141362ea" type="image/svg+xml" width="720" height="234" style="aspect-ratio:720 / 233.79372" tabindex="-1" role="img" aria-label="EagleDepth paper teaser: original RGB and depth results, magnified regions, and the Synth4K radar comparison.">Open the original figure</object></a>
+        <figcaption class="figure-caption"><strong>EagleDepth excels at predicting fine-grained depth maps from high-resolution images.</strong> Compared with state-of-the-art methods, our model achieves better depth estimation results with faster inference, as shown in the radar chart (quality metrics averaged over the five Synth4K subsets; larger radii indicate better performance)</figcaption>
+      </figure>
+    </section>
+    <section class="section-card" id="abstract" aria-labelledby="abstract-title">
+      <h2 id="abstract-title">Abstract</h2>
+      <p class="abstract">Recovering detailed geometry from high-resolution images is critical for precise perception of the surroundings and objects. However, existing methods which use latent-space modeling and VAE reconstruction can compromise geometric details. Furthermore, decoding from latent codes introduces substantial inference overhead. To address those issues, we present EagleDepth, an efficient framework for high-resolution monocular depth estimation that combines the geometric priors of latent diffusion with fine-grained pixel-space generation. Our key idea is to retain depth-aware latent representations as guidance while generating the final depth map directly in pixel space. We train the latent and pixel components sequentially: first, we fine-tune a pretrained latent diffusion model using paired RGB–depth supervision; then, we adapt a pretrained pixel diffusion decoder, PiD, to predict depth conditioned on the learned features. Training of the pixel component starts at 1024 resolution and continues across multiple resolutions up to 4K. The latent branch processes resized, lower-resolution RGB images, while the pixel branch generates depth at the target resolution, bypassing the original VAE decoder. This design preserves learned geometric knowledge without requiring the latent backbone to operate at the output resolution. On five commonly used depth estimation datasets and the high-resolution Synth4K dataset, our framework achieves state-of-the-art depth estimation performance, with faster inference and better preservation of fine structures and object boundaries.</p>
+    </section>
+    <section class="section-card" id="method" aria-labelledby="method-title">
+      <h2 id="method-title">Method</h2>
+      <figure>
+        <a class="figure-link" href="assets/method/full.svg?v=368e7f2e4a04" target="_blank" rel="noopener" aria-label="Open the original method figure"><object class="original-figure vector-figure" id="method-figure" data="assets/method/full.svg?v=368e7f2e4a04" type="image/svg+xml" width="940" height="403" style="aspect-ratio:940.176 / 403.457" tabindex="-1" role="img" aria-label="EagleDepth method: latent predictor adaptation, pixel diffusion decoder, and continuity-promoting module.">Open the original figure</object></a>
+        <figcaption class="figure-caption"><strong>Method overview.</strong> <strong>(a)</strong> An adapted latent predictor, trained with a pixel-space loss, estimates a coarse depth latent from a downsampled RGB image. <strong>(b)</strong> Conditioned on this latent, the pixel diffusion decoder generates a high-resolution depth map with fine-grained details. <strong>(c)</strong> A lightweight continuity-promoting module mitigates discontinuity artifacts at patch boundaries.</figcaption>
+      </figure>
+    </section>
+    <section class="section-card" id="visual-results" aria-labelledby="visual-results-title">
+      <h2 id="visual-results-title">Visual Results</h2>
+      <div class="visual-tabs">
+        <div class="visual-tab-list" role="tablist" aria-label="Visual result type">
+          <button class="visual-tab" type="button" role="tab" id="depth-tab" data-mode="depth" aria-controls="depth-panel" aria-selected="true">Depth Map</button>
+          <button class="visual-tab" type="button" role="tab" id="comparison-tab" data-mode="comparison" aria-controls="comparison-panel" aria-selected="false" tabindex="-1">Comparison</button>
+        </div>
+      </div>
+      <p class="visual-description" id="depth-description">Hover over the RGB image to inspect matching depth details. Scroll to adjust magnification; on a touch screen, drag across the image.</p>
+      <p class="visual-description" id="comparison-description" hidden>Predicted <strong>depth maps</strong> from different methods on the same input.</p>
+      <div class="gallery-nav">
+        <button class="round-button" type="button" id="visual-prev" aria-label="Previous visual result">◀</button>
+        <div class="thumbnail-viewport">
+          <div class="thumbnail-strip" id="visual-thumbnails" role="group" aria-label="Choose a visual result"></div>
+        </div>
+        <button class="round-button" type="button" id="visual-next" aria-label="Next visual result">▶</button>
+      </div>
+      <span class="sr-only" id="visual-status" role="status"></span>
+      <p class="error-message" id="visual-load-error" hidden>Visual results could not be loaded. Please reload the page.</p>
+      <div class="visual-panel" id="depth-panel" role="tabpanel" aria-labelledby="depth-tab">
+        <div class="comparison-stage is-loading" id="depth-stage" aria-busy="true">
+          <div class="depth-pair" id="depth-pair"></div>
+          <div class="visual-error" hidden><p>The images could not be loaded.</p><button class="small-button visual-retry" type="button">Try again</button></div>
+          <div class="gallery-loading" aria-hidden="false"><span class="loading-spinner" aria-hidden="true"></span><span class="sr-only" role="status">Loading RGB and depth images</span></div>
+        </div>
+      </div>
+      <div class="visual-panel" id="comparison-panel" role="tabpanel" aria-labelledby="comparison-tab" hidden>
+        <div class="comparison-stage" id="comparison-stage" aria-busy="false">
+          <div class="paper-comparison-scroll" tabindex="0" role="region" aria-label="Paper comparison, scroll horizontally on small screens"><div class="paper-comparison" id="comparison-figure"></div></div>
+          <div class="visual-error" hidden><p>The comparison could not be loaded.</p><button class="small-button visual-retry" type="button">Try again</button></div>
+          <div class="gallery-loading" aria-hidden="true"><span class="loading-spinner" aria-hidden="true"></span><span class="sr-only" role="status">Loading comparison figure</span></div>
+        </div>
+      </div>
+    </section>
+    <section class="section-card" id="citation" aria-labelledby="citation-title">
+      <div class="citation-heading"><h2 id="citation-title">Citation</h2><button class="small-button" id="copy-citation" aria-label="Copy BibTeX citation"><span id="copy-icon"><svg class="ui-icon" style="width:1em" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1792 1792" fill="currentColor" aria-hidden="true"><path transform="translate(0 1536) scale(1 -1)" d="M1696 1152q40 0 68 -28t28 -68v-1216q0 -40 -28 -68t-68 -28h-960q-40 0 -68 28t-28 68v288h-544q-40 0 -68 28t-28 68v672q0 40 20 88t48 76l408 408q28 28 76 48t88 20h416q40 0 68 -28t28 -68v-328q68 40 128 40h416zM1152 939l-299 -299h299v299zM512 1323l-299 -299 h299v299zM708 676l316 316v416h-384v-416q0 -40 -28 -68t-68 -28h-416v-640h512v256q0 40 20 88t48 76zM1664 -128v1152h-384v-416q0 -40 -28 -68t-68 -28h-416v-640h896z"/></svg></span><span id="copied-icon" hidden><svg class="ui-icon" style="width:1em" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1792 1792" fill="currentColor" aria-hidden="true"><path transform="translate(0 1536) scale(1 -1)" d="M1671 970q0 -40 -28 -68l-724 -724l-136 -136q-28 -28 -68 -28t-68 28l-136 136l-362 362q-28 28 -28 68t28 68l136 136q28 28 68 28t68 -28l294 -295l656 657q28 28 68 28t68 -28l136 -136q28 -28 28 -68z"/></svg></span><span id="copy-label">Copy BibTeX</span></button></div>
+      <pre class="citation-code"><code id="citation-code">@article{chai2026eagledepth,
+  title={EagleDepth: Efficient Fine-Grained Depth Estimation via Pixel Diffusion Decoder},
+  author={Bowen Chai, Tianbao Zhang, Shuyu Wu,
+          Dexin Zuo, Zhaoxin Fan, and Danping Zou},
+  booktitle={arXiv preprint},
+  year={2026}
+}</code></pre>
+      <span class="sr-only" id="citation-status" role="status"></span>
+    </section>
+    <noscript><p class="error-message">Enable JavaScript to explore the visual results.</p></noscript>
+  </main>
+  <footer class="site-footer">Thanks to <a href="https://zju3dv.github.io/InfiniDepth/" target="_blank" rel="noopener noreferrer">infinidepth</a> for the website template.</footer>
+  <script type="module" src="assets/js/main.js?v=45fd4430e223"></script>
+</body>
+</html>

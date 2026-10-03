@@ -1,0 +1,619 @@
+{
+  "version": 2,
+  "methods": [
+    {
+      "id": "rgb",
+      "label": "RGB"
+    },
+    {
+      "id": "moge_2",
+      "label": "MoGe-2"
+    },
+    {
+      "id": "pixel_perfect_depth",
+      "label": "PPD"
+    },
+    {
+      "id": "infini_depth",
+      "label": "InfiniDepth"
+    },
+    {
+      "id": "ours",
+      "label": "Ours"
+    }
+  ],
+  "samples": [
+    {
+      "id": "temple",
+      "title": "Temple courtyard",
+      "images": {
+        "rgb": {
+          "src": "assets/visual/images/temple-rgb.webp",
+          "width": 1872,
+          "height": 1248
+        },
+        "moge_2": {
+          "src": "assets/visual/images/temple-moge_2.webp",
+          "width": 1872,
+          "height": 1248
+        },
+        "pixel_perfect_depth": {
+          "src": "assets/visual/images/temple-pixel_perfect_depth.webp",
+          "width": 1872,
+          "height": 1248
+        },
+        "infini_depth": {
+          "src": "assets/visual/images/temple-infini_depth.webp",
+          "width": 1872,
+          "height": 1248
+        },
+        "ours": {
+          "src": "assets/visual/images/temple-ours.webp",
+          "width": 1872,
+          "height": 1248
+        }
+      },
+      "comparison": {
+        "src": "assets/visual/comparisons/temple.svg",
+        "mode": "inset",
+        "width": 976,
+        "height": 518.6666666666667
+      }
+    },
+    {
+      "id": "church",
+      "title": "Church facade",
+      "images": {
+        "rgb": {
+          "src": "assets/visual/images/church-rgb.webp",
+          "width": 1792,
+          "height": 1344
+        },
+        "moge_2": {
+          "src": "assets/visual/images/church-moge_2.webp",
+          "width": 1792,
+          "height": 1344
+        },
+        "pixel_perfect_depth": {
+          "src": "assets/visual/images/church-pixel_perfect_depth.webp",
+          "width": 1792,
+          "height": 1344
+        },
+        "infini_depth": {
+          "src": "assets/visual/images/church-infini_depth.webp",
+          "width": 1792,
+          "height": 1344
+        },
+        "ours": {
+          "src": "assets/visual/images/church-ours.webp",
+          "width": 1792,
+          "height": 1344
+        }
+      },
+      "comparison": {
+        "src": "assets/visual/comparisons/church.svg",
+        "mode": "inset",
+        "width": 976,
+        "height": 572.0
+      }
+    },
+    {
+      "id": "island-railings",
+      "title": "Island railings",
+      "images": {
+        "rgb": {
+          "src": "assets/visual/images/island-railings-rgb.webp",
+          "width": 3840,
+          "height": 2160
+        },
+        "moge_2": {
+          "src": "assets/visual/images/island-railings-moge_2.webp",
+          "width": 3836,
+          "height": 2156
+        },
+        "pixel_perfect_depth": {
+          "src": "assets/visual/images/island-railings-pixel_perfect_depth.webp",
+          "width": 3840,
+          "height": 2160
+        },
+        "infini_depth": {
+          "src": "assets/visual/images/island-railings-infini_depth.webp",
+          "width": 3840,
+          "height": 2160
+        },
+        "ours": {
+          "src": "assets/visual/images/island-railings-ours.webp",
+          "width": 3840,
+          "height": 2160
+        }
+      },
+      "comparison": {
+        "src": "assets/visual/comparisons/island-railings.svg",
+        "mode": "inset",
+        "width": 976,
+        "height": 452.8373153127937
+      }
+    },
+    {
+      "id": "eth3d-terrains",
+      "title": "Outdoor terrain",
+      "images": {
+        "rgb": {
+          "src": "assets/visual/images/eth3d-terrains-rgb.webp",
+          "width": 2048,
+          "height": 1365
+        },
+        "moge_2": {
+          "src": "assets/visual/images/eth3d-terrains-moge_2.webp",
+          "width": 1246,
+          "height": 826
+        },
+        "pixel_perfect_depth": {
+          "src": "assets/visual/images/eth3d-terrains-pixel_perfect_depth.webp",
+          "width": 1248,
+          "height": 832
+        },
+        "infini_depth": {
+          "src": "assets/visual/images/eth3d-terrains-infini_depth.webp",
+          "width": 1248,
+          "height": 832
+        },
+        "ours": {
+          "src": "assets/visual/images/eth3d-terrains-ours.webp",
+          "width": 1248,
+          "height": 832
+        }
+      },
+      "comparison": {
+        "src": "assets/visual/comparisons/eth3d-terrains.svg",
+        "mode": "inset",
+        "width": 976,
+        "height": 518.6666666666667
+      }
+    },
+    {
+      "id": "island-foliage",
+      "title": "Island foliage",
+      "images": {
+        "rgb": {
+          "src": "assets/visual/images/island-foliage-rgb.webp",
+          "width": 3840,
+          "height": 2160
+        },
+        "moge_2": {
+          "src": "assets/visual/images/island-foliage-moge_2.webp",
+          "width": 3836,
+          "height": 2156
+        },
+        "pixel_perfect_depth": {
+          "src": "assets/visual/images/island-foliage-pixel_perfect_depth.webp",
+          "width": 3840,
+          "height": 2160
+        },
+        "infini_depth": {
+          "src": "assets/visual/images/island-foliage-infini_depth.webp",
+          "width": 3840,
+          "height": 2160
+        },
+        "ours": {
+          "src": "assets/visual/images/island-foliage-ours.webp",
+          "width": 3840,
+          "height": 2160
+        }
+      },
+      "comparison": {
+        "src": "assets/visual/comparisons/island-foliage.svg",
+        "mode": "inset",
+        "width": 976,
+        "height": 576.4233694193433
+      }
+    },
+    {
+      "id": "modern-architecture",
+      "title": "Modern architecture",
+      "images": {
+        "rgb": {
+          "src": "assets/visual/images/modern-architecture-rgb.webp",
+          "width": 3216,
+          "height": 2144
+        },
+        "moge_2": {
+          "src": "assets/visual/images/modern-architecture-moge_2.webp",
+          "width": 3216,
+          "height": 2144
+        },
+        "pixel_perfect_depth": {
+          "src": "assets/visual/images/modern-architecture-pixel_perfect_depth.webp",
+          "width": 3216,
+          "height": 2144
+        },
+        "infini_depth": {
+          "src": "assets/visual/images/modern-architecture-infini_depth.webp",
+          "width": 3216,
+          "height": 2144
+        },
+        "ours": {
+          "src": "assets/visual/images/modern-architecture-ours.webp",
+          "width": 3216,
+          "height": 2144
+        }
+      },
+      "comparison": {
+        "src": "assets/visual/comparisons/modern-architecture.svg",
+        "mode": "inset",
+        "width": 976,
+        "height": 518.6666666666667
+      }
+    },
+    {
+      "id": "building-facade",
+      "title": "Building facade",
+      "images": {
+        "rgb": {
+          "src": "assets/visual/images/building-facade-rgb.webp",
+          "width": 1872,
+          "height": 1248
+        },
+        "moge_2": {
+          "src": "assets/visual/images/building-facade-moge_2.webp",
+          "width": 1872,
+          "height": 1248
+        },
+        "pixel_perfect_depth": {
+          "src": "assets/visual/images/building-facade-pixel_perfect_depth.webp",
+          "width": 1872,
+          "height": 1248
+        },
+        "infini_depth": {
+          "src": "assets/visual/images/building-facade-infini_depth.webp",
+          "width": 1872,
+          "height": 1248
+        },
+        "ours": {
+          "src": "assets/visual/images/building-facade-ours.webp",
+          "width": 1872,
+          "height": 1248
+        }
+      },
+      "comparison": {
+        "src": "assets/visual/comparisons/building-facade.svg",
+        "mode": "inset",
+        "width": 976,
+        "height": 518.6666666666667
+      }
+    },
+    {
+      "id": "city-skyline",
+      "title": "City skyline",
+      "images": {
+        "rgb": {
+          "src": "assets/visual/images/city-skyline-rgb.webp",
+          "width": 3216,
+          "height": 2144
+        },
+        "moge_2": {
+          "src": "assets/visual/images/city-skyline-moge_2.webp",
+          "width": 3216,
+          "height": 2144
+        },
+        "pixel_perfect_depth": {
+          "src": "assets/visual/images/city-skyline-pixel_perfect_depth.webp",
+          "width": 3216,
+          "height": 2144
+        },
+        "infini_depth": {
+          "src": "assets/visual/images/city-skyline-infini_depth.webp",
+          "width": 3216,
+          "height": 2144
+        },
+        "ours": {
+          "src": "assets/visual/images/city-skyline-ours.webp",
+          "width": 3216,
+          "height": 2144
+        }
+      },
+      "comparison": {
+        "src": "assets/visual/comparisons/city-skyline.svg",
+        "mode": "inset",
+        "width": 976,
+        "height": 518.6666666666667
+      }
+    },
+    {
+      "id": "cat",
+      "title": "Cat",
+      "images": {
+        "rgb": {
+          "src": "assets/visual/images/cat-rgb.webp",
+          "width": 1872,
+          "height": 1248
+        },
+        "moge_2": {
+          "src": "assets/visual/images/cat-moge_2.webp",
+          "width": 1872,
+          "height": 1248
+        },
+        "pixel_perfect_depth": {
+          "src": "assets/visual/images/cat-pixel_perfect_depth.webp",
+          "width": 1872,
+          "height": 1248
+        },
+        "infini_depth": {
+          "src": "assets/visual/images/cat-infini_depth.webp",
+          "width": 1872,
+          "height": 1248
+        },
+        "ours": {
+          "src": "assets/visual/images/cat-ours.webp",
+          "width": 1872,
+          "height": 1248
+        }
+      },
+      "comparison": {
+        "src": "assets/visual/comparisons/cat.svg",
+        "mode": "inset",
+        "width": 976,
+        "height": 518.6666666666667
+      }
+    },
+    {
+      "id": "eth3d-courtyard",
+      "title": "Outdoor courtyard",
+      "images": {
+        "rgb": {
+          "src": "assets/visual/images/eth3d-courtyard-rgb.webp",
+          "width": 2048,
+          "height": 1365
+        },
+        "moge_2": {
+          "src": "assets/visual/images/eth3d-courtyard-moge_2.webp",
+          "width": 1246,
+          "height": 826
+        },
+        "pixel_perfect_depth": {
+          "src": "assets/visual/images/eth3d-courtyard-pixel_perfect_depth.webp",
+          "width": 1248,
+          "height": 832
+        },
+        "infini_depth": {
+          "src": "assets/visual/images/eth3d-courtyard-infini_depth.webp",
+          "width": 1248,
+          "height": 832
+        },
+        "ours": {
+          "src": "assets/visual/images/eth3d-courtyard-ours.webp",
+          "width": 1248,
+          "height": 832
+        }
+      },
+      "comparison": {
+        "src": "assets/visual/comparisons/eth3d-courtyard.svg",
+        "mode": "arrows",
+        "width": 976,
+        "height": 518.6666666666667
+      }
+    },
+    {
+      "id": "diode-outdoor",
+      "title": "Outdoor scene",
+      "images": {
+        "rgb": {
+          "src": "assets/visual/images/diode-outdoor-rgb.webp",
+          "width": 1024,
+          "height": 768
+        },
+        "moge_2": {
+          "src": "assets/visual/images/diode-outdoor-moge_2.webp",
+          "width": 1148,
+          "height": 868
+        },
+        "pixel_perfect_depth": {
+          "src": "assets/visual/images/diode-outdoor-pixel_perfect_depth.webp",
+          "width": 1152,
+          "height": 864
+        },
+        "infini_depth": {
+          "src": "assets/visual/images/diode-outdoor-infini_depth.webp",
+          "width": 1152,
+          "height": 864
+        },
+        "ours": {
+          "src": "assets/visual/images/diode-outdoor-ours.webp",
+          "width": 1152,
+          "height": 864
+        }
+      },
+      "comparison": {
+        "src": "assets/visual/comparisons/diode-outdoor.svg",
+        "mode": "arrows",
+        "width": 976,
+        "height": 572.0
+      }
+    },
+    {
+      "id": "sintel-temple",
+      "title": "Temple ruins",
+      "images": {
+        "rgb": {
+          "src": "assets/visual/images/sintel-temple-rgb.webp",
+          "width": 1024,
+          "height": 436
+        },
+        "moge_2": {
+          "src": "assets/visual/images/sintel-temple-moge_2.webp",
+          "width": 1442,
+          "height": 714
+        },
+        "pixel_perfect_depth": {
+          "src": "assets/visual/images/sintel-temple-pixel_perfect_depth.webp",
+          "width": 1440,
+          "height": 720
+        },
+        "infini_depth": {
+          "src": "assets/visual/images/sintel-temple-infini_depth.webp",
+          "width": 1440,
+          "height": 720
+        },
+        "ours": {
+          "src": "assets/visual/images/sintel-temple-ours.webp",
+          "width": 1440,
+          "height": 720
+        }
+      },
+      "comparison": {
+        "src": "assets/visual/comparisons/sintel-temple.svg",
+        "mode": "arrows",
+        "width": 976,
+        "height": 412.0
+      }
+    },
+    {
+      "id": "ddad-street",
+      "title": "Street scene",
+      "images": {
+        "rgb": {
+          "src": "assets/visual/images/ddad-street-rgb.webp",
+          "width": 1936,
+          "height": 1216
+        },
+        "moge_2": {
+          "src": "assets/visual/images/ddad-street-moge_2.webp",
+          "width": 1246,
+          "height": 826
+        },
+        "pixel_perfect_depth": {
+          "src": "assets/visual/images/ddad-street-pixel_perfect_depth.webp",
+          "width": 1248,
+          "height": 832
+        },
+        "infini_depth": {
+          "src": "assets/visual/images/ddad-street-infini_depth.webp",
+          "width": 1248,
+          "height": 832
+        },
+        "ours": {
+          "src": "assets/visual/images/ddad-street-ours.webp",
+          "width": 1248,
+          "height": 832
+        }
+      },
+      "comparison": {
+        "src": "assets/visual/comparisons/ddad-street.svg",
+        "mode": "arrows",
+        "width": 976,
+        "height": 518.6666666666667
+      }
+    },
+    {
+      "id": "easter-eggs",
+      "title": "Easter eggs",
+      "images": {
+        "rgb": {
+          "src": "assets/visual/images/easter-eggs-rgb.webp",
+          "width": 2880,
+          "height": 2160
+        },
+        "moge_2": {
+          "src": "assets/visual/images/easter-eggs-moge_2.webp",
+          "width": 2880,
+          "height": 2160
+        },
+        "pixel_perfect_depth": {
+          "src": "assets/visual/images/easter-eggs-pixel_perfect_depth.webp",
+          "width": 2880,
+          "height": 2160
+        },
+        "infini_depth": {
+          "src": "assets/visual/images/easter-eggs-infini_depth.webp",
+          "width": 2880,
+          "height": 2160
+        },
+        "ours": {
+          "src": "assets/visual/images/easter-eggs-ours.webp",
+          "width": 2880,
+          "height": 2160
+        }
+      },
+      "comparison": {
+        "src": "assets/visual/comparisons/easter-eggs.svg",
+        "mode": "plain",
+        "width": 976,
+        "height": 572.0
+      }
+    },
+    {
+      "id": "dog",
+      "title": "Dog",
+      "images": {
+        "rgb": {
+          "src": "assets/visual/images/dog-rgb.webp",
+          "width": 1344,
+          "height": 1792
+        },
+        "moge_2": {
+          "src": "assets/visual/images/dog-moge_2.webp",
+          "width": 1344,
+          "height": 1792
+        },
+        "pixel_perfect_depth": {
+          "src": "assets/visual/images/dog-pixel_perfect_depth.webp",
+          "width": 1344,
+          "height": 1792
+        },
+        "infini_depth": {
+          "src": "assets/visual/images/dog-infini_depth.webp",
+          "width": 1344,
+          "height": 1792
+        },
+        "ours": {
+          "src": "assets/visual/images/dog-ours.webp",
+          "width": 1344,
+          "height": 1792
+        }
+      },
+      "comparison": {
+        "src": "assets/visual/comparisons/dog.svg",
+        "mode": "plain",
+        "width": 976,
+        "height": 820.1589755940897
+      }
+    },
+    {
+      "id": "island-details",
+      "title": "Island details",
+      "images": {
+        "rgb": {
+          "src": "assets/visual/images/island-details-rgb.webp",
+          "width": 3840,
+          "height": 2160
+        },
+        "moge_2": {
+          "src": "assets/visual/images/island-details-moge_2.webp",
+          "width": 3836,
+          "height": 2156
+        },
+        "pixel_perfect_depth": {
+          "src": "assets/visual/images/island-details-pixel_perfect_depth.webp",
+          "width": 3840,
+          "height": 2160
+        },
+        "infini_depth": {
+          "src": "assets/visual/images/island-details-infini_depth.webp",
+          "width": 3840,
+          "height": 2160
+        },
+        "ours": {
+          "src": "assets/visual/images/island-details-ours.webp",
+          "width": 3840,
+          "height": 2160
+        }
+      },
+      "comparison": {
+        "src": "assets/visual/comparisons/island-details.svg",
+        "mode": "multi_detail",
+        "width": 976,
+        "height": 630.0
+      }
+    }
+  ]
+}

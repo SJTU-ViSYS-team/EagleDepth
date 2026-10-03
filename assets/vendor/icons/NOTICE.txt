@@ -1,0 +1,27 @@
+Icon artwork attribution
+
+arxiv: Academicons 1.9.5, glyph arxiv (U+E974).
+James Walsh, Katja Bercic (https://jpswalsh.github.io/academicons/),
+with Reserved Font Name Academicons.
+Upstream: https://github.com/jpswalsh/academicons
+Font source: https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/fonts/academicons.svg
+The referenced @1 package reports version 1.9.5.
+License: SIL Open Font License 1.1; see ACADEMICONS-OFL-1.1.txt.
+
+Github, copy, check: Font Awesome 4.7.0.
+Copyright Dave Gandy 2016. All rights reserved.
+Upstream: https://github.com/FortAwesome/Font-Awesome/tree/v4.7.0
+Font source: https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@v4.7.0/fonts/fontawesome-webfont.svg
+Glyphs: github (U+F09B), copy / files-o (U+F0C5), ok / check (U+F00C).
+License: SIL Open Font License 1.1; see FONT-AWESOME-OFL-1.1.txt.
+
+Extraction: Original SVG-font glyph outlines are unchanged. Each glyph is
+packaged as a standalone inline SVG with its original horizontal advance,
+units-per-em, and ascent; a translate/vertical flip converts font coordinates
+to SVG coordinates. No complete renamed font is distributed.
+The font-derived artwork retains its OFL license; the licenses do not require
+the surrounding website or documents to adopt OFL.
+
+The source projects' READMEs distinguish the font's SIL OFL 1.1 license from
+the CSS MIT license and the documentation CC BY 3.0 license. Only glyph
+outlines are embedded here; source CSS and documentation are not included.
