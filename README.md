@@ -11,18 +11,19 @@
 </p>
 
 <p align="center">
-  <a href="">Bowen Chai<sup>1*</sup></a> <strong>·</strong>
-  <a href="">Tianbao Zhang<sup>1*</sup></a> <strong>·</strong>
-  <a href="">Shuyu Wu<sup>1</sup></a> <strong>·</strong>
-  <a href="">Dexin Zuo<sup>1</sup></a> <strong>·</strong>
-  <a href="">Zhaoxin Fan<sup>2</sup></a> <strong>·</strong>
-  <a href="">Danping Zou<sup>1†</sup></a>
+  <a href="https://bowenchai.github.io">Bowen Chai</a><sup>1*</sup> <strong>·</strong>
+  Tianbao Zhang<sup>1*</sup> <strong>·</strong>
+  Shuyu Wu<sup>1</sup> <strong>·</strong>
+  Dexin Zuo<sup>1</sup> <strong>·</strong>
+  Zhaoxin Fan<sup>2</sup> <strong>·</strong>
+  <a href="https://sais.sjtu.edu.cn/faculty/zoudanping.html">Danping Zou</a><sup>1†</sup>
 </p>
 
 <p align="center">
   <sup>1</sup>Shanghai Jiao Tong University &nbsp; <sup>2</sup>Beihang University<br>
   <sup>*</sup>Equal contribution &nbsp; <sup>†</sup>Corresponding author
 </p>
+
 
 <p align="center">
   <br>
