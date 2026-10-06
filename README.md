@@ -1,4 +1,4 @@
-<!-- TODO: Set the paper arXiv URL and author links. -->
+<!-- TODO: Set the remaining author links. -->
 
 <h1 align="center">
   <small><sup><sup><sub><img src="https://raw.githubusercontent.com/SJTU-ViSYS-team/EagleDepth/gh-pages/assets/eagle.png" width="56" align="top" alt="EagleDepth eagle icon"></sub></sup></sup></small>
@@ -6,8 +6,8 @@
 </h1>
 
 <p align="center">
-  <a href="https://sjtu-visys-team.github.io/EagleDepth/"><img src="https://img.shields.io/badge/Project-Page-blue?logo=github" alt="Project Page"></a>
-  <a href="ARXIV_URL"><img src="https://img.shields.io/badge/Paper-arXiv-red?logo=arxiv" alt="arXiv"></a>
+  <a href="https://sjtu-visys-team.github.io/EagleDepth/"><img src="https://raw.githubusercontent.com/SJTU-ViSYS-team/EagleDepth/gh-pages/assets/badges/project-page.svg" alt="Project Page"></a>
+  <a href="https://arxiv.org/abs/2610.04554"><img src="https://img.shields.io/badge/Paper-arXiv-red?logo=arxiv" alt="arXiv"></a>
 </p>
 
 <p align="center">
@@ -31,3 +31,5 @@
 </p>
 
 ## 📢 News
+
+- **[2026-10-06]** Our work is released: [Paper](https://arxiv.org/abs/2610.04554) | [Project](https://sjtu-visys-team.github.io/EagleDepth/).
