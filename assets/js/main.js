@@ -21,7 +21,7 @@ fetchJSON('assets/visual-data.json?v=58ffbba17288')
     document.getElementById('visual-prev').disabled = true;
     document.getElementById('visual-next').disabled = true;
   });
-fetchJSON('assets/site-config.json?v=22628dd91785').then(config => {
+fetchJSON('assets/site-config.json?v=8af80d403cbb').then(config => {
   if (config.paperUrl && /^https:\/\//.test(config.paperUrl)) {
     const link = $('paper-link');
     link.href = config.paperUrl;
